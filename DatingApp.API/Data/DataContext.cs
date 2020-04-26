@@ -10,5 +10,8 @@ namespace DatingApp.API.Data
 
         //tworzy tabele dla modelu Value
         public DbSet<Value> Values { get; set; }
+
+        public DbSet<User> Users {get; set; }
+        
     }
 }
